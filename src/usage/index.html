@@ -1,0 +1,17 @@
+<hmtl>
+<head>
+	<script src="cordova-2.3.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/AndroidVersion.js"></script>
+	<script>
+		function onDeviceReady(){
+			var androidVersion = cordova.require("cordova/plugin/androidversion");
+			androidVersion.get(function(version_name){
+				console.log('version = ' + version_name);
+			}, function(){
+			});	
+		}
+		document.addEventListener("deviceready", onDeviceReady, false);
+	</script>
+</head>
+
+</html>
