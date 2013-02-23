@@ -6,7 +6,7 @@ Phonegap Plugin to retrieve the versionName value dynamically
 Installation/Configuration
 --------------------------
 
-In your res/xml/config.xml file, add the following line:
+In your `res/xml/config.xml` file, add the following line:
 
     <plugin name="AndroidVersion" value="com.raisenllc.plugins.AndroidVersion" />
 
